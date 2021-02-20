@@ -4,7 +4,7 @@ basic_settings:
 
 header_settings:
   logo_image: /assets/img/brand/qson-full-white-logo.png
-  mobile_logo_image: /assets/img/brand/blue.png
+  mobile_logo_image: /assets/img/brand/qson-full-clear-logo.png
   # Choose a color for your header [blue, dark, light].
   theme: dark
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
@@ -41,7 +41,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Consulting | Developer Tools | Enterprise Data
+  footer_tagline: Consulting | Developer Tools | Practical DevOps
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
