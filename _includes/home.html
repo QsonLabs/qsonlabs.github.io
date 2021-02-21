@@ -1,24 +1,6 @@
-<style>
-#Line_3 #Line_4 {
-    stroke-dasharray: 10;    
-    animation: dash 5s linear;
-}
-
-@keyframes dash {
-    to {
-      stroke-dashoffset: 1000;
-    }
-}
-</style>
 <header class="header-1 fullWidth">
     <div class="page-header">
-      <!--div class="page-header-image" style="background-image: url('{{ '/assets/img/ill/qson-pipes.svg' | relative_url }}')"></div-->
-      <!--Smoketest-->
-      <div class="page-header-image">
-        <bg-image class="page-header-image">
-            {% include components/svgs/qson-pipes.html %}  
-        </bg-image>
-      </div>
+      <div class="page-header-image" style="background-image: url('{{ '/assets/img/ill/qson-pipes.svg' | relative_url }}')"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
@@ -35,6 +17,7 @@
         </div>
       </div>
     </div>
-    {% include components/features/feature-ql-1.html %}  
 </header>
-
+{% include components/features/feature-ql-1.html %}  
+{% include components/features/feature-ql-tech.html %}  
+{% include components/features/feature-ql-faq.html %}  

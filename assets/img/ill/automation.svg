@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-2839.25 9597.375 1214.5 1022" width="1214.5" height="1022">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="-2839.25" y="9597.375">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="4.36"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledCenterBall_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 9 10" markerWidth="9" markerHeight="10" color="#004479">
+      <g>
+        <circle cx="3.2727258" cy="0" r="3.27272394883986" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Ball_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 9 10" markerWidth="9" markerHeight="10" color="#00acff">
+      <g>
+        <circle cx="3.2727258" cy="0" r="3.27272438038181" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.2 
+    <dc:date>2021-02-21 21:53:48 +0000</dc:date>
+  </metadata>
+  <g id="Flows" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1" fill="none" stroke="none">
+    <title>Flows</title>
+    <g id="Flows: Background">
+      <title>Background</title>
+      <g id="Graphic_3884_shadow" filter="url(#Shadow)">
+        <path d="M -2819.25 9606.375 L -1644.75 9606.375 C -1639.7794 9606.375 -1635.75 9610.404 -1635.75 9615.375 L -1635.75 10597.375 C -1635.75 10602.346 -1639.7794 10606.375 -1644.75 10606.375 L -2819.25 10606.375 C -2824.2206 10606.375 -2828.25 10602.346 -2828.25 10597.375 L -2828.25 9615.375 C -2828.25 9610.404 -2824.2206 9606.375 -2819.25 9606.375 Z" fill="white"/>
+        <path d="M -2819.25 9606.375 L -1644.75 9606.375 C -1639.7794 9606.375 -1635.75 9610.404 -1635.75 9615.375 L -1635.75 10597.375 C -1635.75 10602.346 -1639.7794 10606.375 -1644.75 10606.375 L -2819.25 10606.375 C -2824.2206 10606.375 -2828.25 10602.346 -2828.25 10597.375 L -2828.25 9615.375 C -2828.25 9610.404 -2824.2206 9606.375 -2819.25 9606.375 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_3884">
+        <path d="M -2819.25 9606.375 L -1644.75 9606.375 C -1639.7794 9606.375 -1635.75 9610.404 -1635.75 9615.375 L -1635.75 10597.375 C -1635.75 10602.346 -1639.7794 10606.375 -1644.75 10606.375 L -2819.25 10606.375 C -2824.2206 10606.375 -2828.25 10602.346 -2828.25 10597.375 L -2828.25 9615.375 C -2828.25 9610.404 -2824.2206 9606.375 -2819.25 9606.375 Z" fill="white"/>
+        <path d="M -2819.25 9606.375 L -1644.75 9606.375 C -1639.7794 9606.375 -1635.75 9610.404 -1635.75 9615.375 L -1635.75 10597.375 C -1635.75 10602.346 -1639.7794 10606.375 -1644.75 10606.375 L -2819.25 10606.375 C -2824.2206 10606.375 -2828.25 10602.346 -2828.25 10597.375 L -2828.25 9615.375 C -2828.25 9610.404 -2824.2206 9606.375 -2819.25 9606.375 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_3900">
+        <line x1="-2828.25" y1="9928.125" x2="-2647.9977" y2="9927.094" marker-end="url(#FilledCenterBall_Marker)" stroke="#004479" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+      </g>
+      <g id="Line_3902">
+        <path d="M -2410.658 9926.888 L -2346.0457 10039.809 C -2344.821 10041.95 -2342.56 10043.288 -2340.094 10043.332 L -2203.8772 10045.744" marker-end="url(#Ball_Marker)" stroke="#00acff" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+      </g>
+      <g id="Line_3903">
+        <line x1="-2410.6645" y1="9926.888" x2="-2027.125" y2="9926.888" marker-end="url(#Ball_Marker)" stroke="#00acff" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+      </g>
+      <g id="Line_3901">
+        <line x1="-2611.9983" y1="9926.888" x2="-2446.6645" y2="9926.888" marker-end="url(#FilledCenterBall_Marker)" stroke="#004479" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+      </g>
+    </g>
+  </g>
+</svg>
