@@ -41,7 +41,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Consulting | Developer Tools | Practical DevOps
+  footer_tagline: Consulting | Developer Tools 
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
