@@ -35,8 +35,6 @@ menu_settings:
       url: '/about'
     - title: Blog
       url: /blog
-    - title: Pricing
-      url: /pricing        
     - title: 'Contact'
       url: '/contact'
 
