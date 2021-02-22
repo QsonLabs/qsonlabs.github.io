@@ -21,7 +21,7 @@ blog_settings:
     # basic – a simple list of posts
     # narrow – a masonary grid of posts
     # grid – a full-width square grid of posts
-  theme: narrow
+  theme: basic
   # Should we display a narrow grid of other posts at the bottom of each blog post?
   read_more: "yes"
 
@@ -42,7 +42,7 @@ footer_settings:
   footer_tagline: Consulting | Developer Tools 
 
 contact_settings:
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://thjaxhidn8.execute-api.us-east-1.amazonaws.com/Prod/submitForm'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'

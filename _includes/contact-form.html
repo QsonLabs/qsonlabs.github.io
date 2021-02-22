@@ -14,7 +14,7 @@
         <div class="col-lg-8 col-md-12 ml-auto mr-auto">
           <div class="card card-contact card-raised">
 
-            <form method="post" action="{{ site.data.settings.contact_settings.form_action }}" id="contact-form">
+            <form method="post" action="" id="contact-form">
               <div class="card-body">
                 <div class="row">
                   <div class="col-md-6">
@@ -24,7 +24,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-circle-08"></i></span>
                         </div>
-                        <input class="form-control" name="Name" placeholder="Name..."
+                        <input class="form-control" name="Name" placeholder="Name..." id="name"
                           aria-label="Name..." type="text">
                       </div>
                     </div>
@@ -36,7 +36,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="ni ni-collection"></i></span>
                         </div>
-                        <input type="text" class="form-control" name="Company" placeholder="Company..."
+                        <input type="text" class="form-control" name="Company" placeholder="Company..." id="company"
                           aria-label="Company...">
                       </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Email Here..." name="email">
+                    <input type="text" class="form-control" placeholder="Email Here..." name="email" id="email">
                   </div>
                 </div>
                 <div class="form-group">
@@ -74,6 +74,9 @@
                   <div class="col-md-6">
                     <button type="submit"
                       class="btn btn-primary pull-right">{{ site.data.settings.contact_settings.send_button_text }}</button>
+                  </div>
+                  <div class="col-md-6">
+                    <h4 id="response"></h4>
                   </div>
                 </div>
               </div>
@@ -145,3 +148,39 @@
   </div>
   </div>
 </section>
+
+<script>
+  (() => {
+    const form = document.querySelector('#contact-form');
+    const submitResponse = document.querySelector('#response');
+    const formURL = '{{ site.data.settings.contact_settings.form_action }}';  
+
+    form.onsubmit = e => {
+      e.preventDefault();
+
+      // Capture the form data
+      let data = {};
+      Array.from(form).map(input => (data[input.id] = input.value));
+      console.log('Sending: ', JSON.stringify(data));
+
+      // Create the AJAX request
+      var xhr = new XMLHttpRequest();
+      xhr.open(form.method, formURL, true);
+      xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
+      xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+
+      // Send the collected data as JSON
+      xhr.send(JSON.stringify(data));
+
+      xhr.onloadend = response => {
+        if (response.target.status === 200) {
+          form.reset();
+          submitResponse.innerHTML = 'Success! Thank you!';
+        } else {
+          submitResponse.innerHTML = 'Error! Please try again.';
+          console.error(JSON.parse(response.target.response).message);
+        }
+      };    
+    };
+  })();
+</script>
