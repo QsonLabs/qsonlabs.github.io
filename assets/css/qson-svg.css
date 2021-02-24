@@ -1,13 +1,62 @@
 /* SVG webkit animation for Qson images */
 /* genersted by Omnigraffle. Note case sensitivity */
 
-#Flows #Line_3 {
-    stroke-dasharray: 20;    
-    animation: dash 5s linear;
+.l-17 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+
+}
+.l-15 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
 }
 
+.l-8 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+}
+.l-7 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+}
+.l-4 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+}
+.l-3 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+}
+
+.chriso {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1800;
+  animation: dash 8s infinite linear;
+  animation-fill-mode: backwards;
+  animation-direction: reverse
+}
+
+
 @keyframes dash {
-    to {
-      stroke-dashoffset: 1000;
-    }
+  to {
+    stroke-dashoffset: 0;
+  }
 }

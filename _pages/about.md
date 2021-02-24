@@ -1,8 +1,10 @@
 ---
-title: About Us
-subtitle: This is the perfect theme for developers, designers and other creatives.
-description: Use the Argon Jekyll theme to build a landing page, blog or complete website.
-featured_image: /assets/img/sections/broofoac.jpg
+title: Industry Hardened
+subtitle: Real-World Experience to Solve Complex Problems at Scale
+description: About the Qson Labs Team
+featured_image: /assets/img/sections/Qson.png
 ---
 
 {% include components/teams/team-carousel-1.html %}
+<!--{% include components/teams/timeline.html %}-->
+
